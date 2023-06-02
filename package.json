@@ -1,7 +1,7 @@
 {
   "name": "bookbuster",
   "version": "1.0.0",
-  "description": "",
+  "description": "book search made easy",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -9,8 +9,8 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["bookbuster"],
+  "author": "Rollie",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
